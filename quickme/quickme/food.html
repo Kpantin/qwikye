@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>QwiKye | Food</title>
+		<meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
+		<meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/qstyle.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div id="st-container" class="st-container">
+			<!-- 	
+				example menus 
+				these menus will be on top of the push wrapper
+			-->		
+			<nav class="st-menu st-effect-11" id="menu-11">
+				<h2 class="icon icon-lab" href="index.html"><button class="logo">QwiKye</button></h2>
+				<ul>
+					<li><a class="icon icon-data" href="index.html">Home!</a></li>
+					<li><a class="icon icon-data" href="traffic.html">..need a Route!</a></li>
+					<li><a class="icon icon-location" href="events.html">..need Events!</a></li>
+					<li><a class="icon icon-study" href="food.html">..need Food!</a></li>
+					<li><a class="icon icon-photo" href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<!-- Top Navigation -->
+						<div class="codrops-top clearfix">
+							<span class="right"><a class="codrops-icon codrops-icon-drop" ><span>Contact</span></a></span>
+						</div>
+						<header class="codrops-header">
+							<h1>QwiKye<span>(Pronounced.."Quick-Eye")<br/>Your Local Navigation App!</span></h1>
+						</header>
+						<div class="main clearfix">
+							<div id="st-trigger-effects" class="column">
+								<button data-effect="st-effect-11">Menu</button>
+							</div>
+							<div class="column">
+								<p>Food!...Quick find me food! Hit the 'Menu' button to access Traffic, Events, and Food locations in your area!</p>
+							</div>
+						</div><!-- /main -->
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			</div><!-- /st-pusher -->
+		<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
+	</body>
+</html>
